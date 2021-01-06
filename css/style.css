@@ -1,0 +1,157 @@
+body{
+    margin:0;
+}
+/* Menu Bar */
+.menu-bar{
+    width: 100%;
+    height: 100px;
+}
+
+ul{
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    width: 319px;
+    height: 24px;
+    left: 979px;
+    top: 37px;
+   
+}
+
+ul li{
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+}
+
+
+h1{
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family:'Roboto', sans-serif;
+    font-size: 60px;
+    
+}
+.half-width h1{
+    line-height: 20px;
+}
+
+.greeting-text{
+    color: #363958;
+}
+
+.highlight-text{
+    color: #ff8367;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon , tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.half-width{
+    margin: 3%;
+    padding: 2%;
+    width: 40%;
+    float: left;
+    height: 300px;
+}
+
+img{
+    width: 70%;
+}
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+}
+
+h3{
+    font-family: 'Be Vietnam', sans-serif ;
+    font-size: 44px;
+}
+/* project area */
+.my-project{
+    width: 100%;
+    background-color: #f3f3f3;
+    display: inline-block;
+    padding: 1%;
+    
+}
+
+.my-project h3{
+    text-align: center;
+}
+
+.project{
+  float: left;
+  width: 25%;
+  margin: 2%;
+  padding: 1%;
+  height: 100%;
+}
+.my-project div{
+   box-shadow: 3px 3px 3px 3px rgb(255, 255, 255);;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.project img{
+    width :100%;
+}
+
+/* Work Area */
+
+   
+
+.work-area{
+   
+    background-image: url(../shapes/work-inquery.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px;
+    height: 300px;
+    position: relative;
+}
+.work-area h4{
+top:100px;
+bottom: 60px;
+left: 30%;
+position: absolute;
+color: #f3f3f3;
+font-size: 30px;
+
+}
+.work-area a{
+    
+    bottom: 130px;
+    left: 60%;
+    position: absolute;
+    color: #f3f3f3;
+  
+    
+    }
+
+
+    /* Social-icon */
+
+   #social-section h5{
+    text-align: center;
+   }
+   #social-section h4{
+       text-align: center;
+   }
+   
+   .social-icon{
+       margin-left: 43%;
+   }
+   
+    .social-icon img  {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin: 10px;
+    }
