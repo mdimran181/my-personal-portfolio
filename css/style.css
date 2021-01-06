@@ -1,13 +1,13 @@
 body{
     margin:0;
 }
-/* Menu Bar */
+/*Top Menu-Bar */
 .menu-bar{
     width: 100%;
     height: 100px;
 }
 
-ul{
+.menu-bar ul{
     font-family:'Roboto', sans-serif;
     font-size: 16px;
     position: absolute;
@@ -18,16 +18,16 @@ ul{
    
 }
 
-ul li{
+.menu-bar ul li{
     float: left;
     margin-left: 20px;
     list-style: none;
 }
 
-
+/* Top Section */
 h1{
-    /* font-family: 'Bebas Neue', cursive; */
-    font-family:'Roboto', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    /* font-family:'Roboto', sans-serif; */
     font-size: 60px;
     
 }
@@ -43,6 +43,13 @@ h1{
     color: #ff8367;
 }
 
+.half-width p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+}
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(45deg,lightsalmon , tomato);
@@ -57,53 +64,63 @@ h1{
     padding: 2%;
     width: 40%;
     float: left;
-    height: 300px;
+    height: 350px;
 }
 
 img{
     width: 70%;
 }
 
+
+/* about section style */
 h2{
     font-family: 'Bebas Neue', cursive;
     font-size: 48px;
+    color: #363958;
 }
+
 
 h3{
     font-family: 'Be Vietnam', sans-serif ;
     font-size: 44px;
+    font-weight: bold;
+    
 }
 /* project area */
 .my-project{
     width: 100%;
     background-color: #f3f3f3;
     display: inline-block;
-    padding: 1%;
+   
     
 }
 
 .my-project h3{
     text-align: center;
 }
+h4{
+    font-family:'Roboto', sans-serif;
+    font-size: 18px; 
+}
 
 .project{
   float: left;
-  width: 25%;
-  margin: 2%;
-  padding: 1%;
-  height: 100%;
+  width: 24%;
+  margin: 30px;
+  padding: 2%;
+  height: 90%;
 }
 .my-project div{
    box-shadow: 3px 3px 3px 3px rgb(255, 255, 255);;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     
 }
 .project img{
     width :100%;
 }
 
-/* Work Area */
+/* Work Inquiry Area */
 
    
 
@@ -112,12 +129,12 @@ h3{
     background-image: url(../shapes/work-inquery.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 600px;
-    height: 300px;
+    background-size: 800px;
+    height: 400px;
     position: relative;
 }
 .work-area h4{
-top:100px;
+top:150px;
 bottom: 60px;
 left: 30%;
 position: absolute;
@@ -127,16 +144,65 @@ font-size: 30px;
 }
 .work-area a{
     
-    bottom: 130px;
+    bottom: 170px;
     left: 60%;
     position: absolute;
     color: #f3f3f3;
   
     
     }
+ /* contact area */
+    #contact{
+        width: 90%;
+        height: 500px;
+        margin-left: 5%;
+        display: inline-block;
+        background-color: rgb(226, 226, 226);
+    
+    }
+    #contact h2{
+        text-align: center;
+        font-size: 40px;
+       
+        
+    }
+    .contact-half-side{
+        float:left;
+        width: 40%;
+        margin: 4%;
+        /* padding: 4%; */
+        
+    }
+    .contact-half-side p{
+        font-size: 20px;
+        text-align: justify;
+       
+    }
+  
+  
+  
+    .contact-half-side ul li{
+        list-style-type: none;
+    }
+h5{
+    font-size:20px;
+}
+    .contact-half-side ul li p{
+        font-size: 15px;
+     
+    }
+    .contact-half-side a{
+     background-image: linear-gradient(90deg,rgb(36, 206, 101),rgb(12, 184, 78));
+     text-decoration: none;
+     padding: 10px 20px;
+     color: white;
+     font-size: 20px;
+     margin: 20px 20px;
+     border-radius: 10px;
+    }
 
 
-    /* Social-icon */
+    /* Social-Section area */
 
    #social-section h5{
     text-align: center;
